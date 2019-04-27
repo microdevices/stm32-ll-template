@@ -19,7 +19,7 @@ int main(void)
 /**
  * IRQ Handler defined in asm file
  */
-void TIM17_IRQHandler(void)
+extern "C" void TIM17_IRQHandler(void)
 {
 	if (LL_TIM_IsActiveFlag_UPDATE(TIM17)) {
 		LL_TIM_ClearFlag_UPDATE(TIM17);

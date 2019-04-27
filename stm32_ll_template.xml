@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="S,s,asm">
+
+</language>
+<language name="C Source File">
+<includepath>src</includepath>
+<includepath>lib/STM32F0xx_HAL_Driver/Inc</includepath>
+<includepath>lib/STM32F0xx_HAL_Driver/Inc/Legacy</includepath>
+<includepath>lib/CMSIS/Device/ST/STM32F0xx/Include</includepath>
+<includepath>lib/CMSIS/Include</includepath>
+<includepath>mcu/hardware</includepath>
+<includepath>sys</includepath>
+
+</language>
+<language name="C++ Source File">
+<includepath>Inc</includepath>
+<includepath>Drivers/STM32F0xx_HAL_Driver/Inc</includepath>
+<includepath>Drivers/STM32F0xx_HAL_Driver/Inc/Legacy</includepath>
+<includepath>Drivers/CMSIS/Device/ST/STM32F0xx/Include</includepath>
+<includepath>Drivers/CMSIS/Include</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="S,s,asm">
+
+</language>
+<language name="C Source File">
+<macro>
+<name>USE_FULL_LL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>__weak</name><value>__attribute__((weak))</value>
+</macro>
+<macro>
+<name>__packed</name><value>__attribute__((__packed__))</value>
+</macro>
+<macro>
+<name>STM32F030x6</name><value/>
+</macro>
+
+</language>
+<language name="C++ Source File">
+<macro>
+<name>USE_FULL_LL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>__weak</name><value>__attribute__((weak))</value>
+</macro>
+<macro>
+<name>__packed</name><value>__attribute__((__packed__))</value>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value/>
+</macro>
+<macro>
+<name>STM32F030x6</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
