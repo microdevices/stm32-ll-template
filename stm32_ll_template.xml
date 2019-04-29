@@ -6,20 +6,20 @@
 </language>
 <language name="C Source File">
 <includepath>src</includepath>
-<includepath>lib/STM32F0xx_HAL_Driver/Inc</includepath>
-<includepath>lib/STM32F0xx_HAL_Driver/Inc/Legacy</includepath>
-<includepath>lib/CMSIS/Device/ST/STM32F0xx/Include</includepath>
-<includepath>lib/CMSIS/Include</includepath>
 <includepath>mcu/hardware</includepath>
 <includepath>sys</includepath>
+<includepath>lib/STM32CubeF0/Drivers/CMSIS/Include</includepath>
+<includepath>lib/STM32CubeF0/Drivers/CMSIS/Device/ST/STM32F0xx/Include</includepath>
+<includepath>lib/STM32CubeF0/Drivers/STM32F0xx_HAL_Driver/Inc</includepath>
 
 </language>
 <language name="C++ Source File">
-<includepath>Inc</includepath>
-<includepath>Drivers/STM32F0xx_HAL_Driver/Inc</includepath>
-<includepath>Drivers/STM32F0xx_HAL_Driver/Inc/Legacy</includepath>
-<includepath>Drivers/CMSIS/Device/ST/STM32F0xx/Include</includepath>
-<includepath>Drivers/CMSIS/Include</includepath>
+<includepath>src</includepath>
+<includepath>mcu/hardware</includepath>
+<includepath>sys</includepath>
+<includepath>lib/STM32CubeF0/Drivers/CMSIS/Include</includepath>
+<includepath>lib/STM32CubeF0/Drivers/CMSIS/Device/ST/STM32F0xx/Include</includepath>
+<includepath>lib/STM32CubeF0/Drivers/STM32F0xx_HAL_Driver/Inc</includepath>
 
 </language>
 <language name="Object File">
@@ -54,9 +54,6 @@
 </macro>
 <macro>
 <name>__packed</name><value>__attribute__((__packed__))</value>
-</macro>
-<macro>
-<name>USE_HAL_DRIVER</name><value/>
 </macro>
 <macro>
 <name>STM32F030x6</name><value/>
